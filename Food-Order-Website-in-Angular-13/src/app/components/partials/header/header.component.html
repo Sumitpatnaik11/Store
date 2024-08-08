@@ -1,0 +1,30 @@
+
+<header>
+  <div class="container">
+    <a routerLink="/" class="logo">Grab Store</a>
+    <nav>
+      <ul>
+        <li class="menu-container">
+          <a routerLink="/login">Login</a>
+          <div class="menu">
+            <a routerLink="/register">Register</a>
+            <a routerLink="/login">Login</a>
+          </div>
+        </li>
+        <li class="menu-container">
+          <a routerLink="/dashboard">Grab Store</a>
+          <div class="menu">
+            <a routerLink="/profile">Profile</a>
+            <a routerLink="/orders">Orders</a>
+            <a>Logout</a>
+          </div>
+        </li>
+        <li>
+          <a routerLink="/cart-page">
+            Cart <span>{{cartQuantity}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
